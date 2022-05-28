@@ -9,7 +9,7 @@ close all
 
 % I = imread('E:\Disguise Programs\cropped\153.jpg');
 close all
-I = imread('E:\Disguise Programs\Fuzz Logic\Tumor1.jpg');
+I = imread('input\01.jpg');
 I=imresize(I,[256 256]);
 org=I;
 figure;imshow(I);
